@@ -1,0 +1,117 @@
+name: colombia_go
+description: "Tu parcero en la vuelta turística"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  image_picker: ^1.0.7
+  flutter_map: ^7.0.2
+  url_launcher: ^6.3.0
+  latlong2: ^0.9.1
+  google_sign_in: ^7.2.0
+  cached_network_image: ^3.3.1
+  permission_handler: ^11.3.0
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  firebase_storage: ^13.1.0
+  shared_preferences: ^2.5.4
+  geolocator: ^10.1.0  
+   
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1  # ← Agregado para el logo de la app
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/fondo.jpeg
+    - assets/images/fondo_noche.png
+    - assets/images/logo.png
+    - assets/images/Imagen_gastronomia_COLOMBIAgo.jpg
+    - assets/images/colombia_go_turismo.jpg
+    - assets/images/colombia_go_cultura.jpg
+    - assets/images/colombia_go_discotecas.jpg
+    - assets/images/destino1_cano_cristales.jpg
+    - assets/images/destino2_parque_tayrona.jpg
+    - assets/images/destino3_desierto_de_la_tatacoa.jpg
+    - assets/images/foto_perfil.png
+    - assets/images/logo_fb.png
+    - assets/images/logo_insta.png
+    - assets/images/logo_x_elon.png
+    - assets/images/google_logo.png
+    - assets/images/museo_de_la_moneda.jpg
+    - assets/images/teatro_colon.jpg
+    - assets/images/parque_simon_bolivar.jpg
+    - assets/images/monumento_a_policarpa.jpg
+    - assets/images/cinemateca_bogota.jpg
+    - assets/images/plaza_simon_bolivar.jpg
+    - assets/images/andres_carne_de_res.jpg
+    - assets/images/capitalino_restaurant.jpg
+    - assets/images/hornitos.jpg
+    - assets/images/central_cevicheria.jpg
+    - assets/images/plaza_paloquemao.jpg
+    - assets/images/la_cabrera.jpg
+    - assets/images/cocora.jpg
+    - assets/images/ciudad_perdida.jpg
+    - assets/images/cartagena.jpg
+    - assets/images/theatron.jpg
+    - assets/images/el_bembe.jpg
+    - assets/images/vintrash2.png
+    - assets/images/octava.jpg
+    - assets/images/video_club.jpg
+    - assets/images/sonora.jpg
+    - assets/images/Monserrate.jpg
+    - assets/images/playa_rodadero.jpg
+    - assets/images/parque_nacional.jpg
+    - assets/images/amazonas.jpg
+    - assets/images/raquira.png
+    - assets/images/museo_del_oro.jpg
+    - assets/images/museo_d_botero.jpg
+    - assets/images/museo_nacional_de_colombia.jpg
+    - assets/images/teatro_jorge_eliecer_gaitan.jpeg 
+    - assets/images/karaoke_box.png
+    - assets/images/armenia_pub.png
+    - assets/images/la_viila_gastrobar.png
+    - assets/images/juan_valdez.jpg
+    - assets/images/cafe_san_alberto.jpg
+    - assets/images/harry_sasson.jpg
+    - assets/images/teatro_Mayor_Julio_Mario_Santo_Domingo.jpg
+    - assets/images/la_catedral_primada.jpg
+    - assets/images/capitolio_nacional.jpg
+    - assets/images/casa_de_nariño.png
+    - assets/images/playa_blanca.jpg
+    - assets/images/el_calendario.jpg
+    - assets/images/LOGO_APP_COLOMBIAGO.png
+
+  fonts:
+    - family: LobsterTwo
+      fonts:
+        - asset: assets/fonts/LobsterTwo_Regular.ttf
+        - asset: assets/fonts/LobsterTwo_Bold.ttf
+          weight: 700
+        - asset: assets/fonts/LobsterTwo_Italic.ttf
+          style: italic
+        - asset: assets/fonts/LobsterTwo_BoldItalic.ttf
+          weight: 700
+          style: italic
+
+# ────────────────────────────────────────────────────────────────────────────
+# CONFIGURACIÓN DEL LOGO DE LA APP (LAUNCHER ICON)
+# ────────────────────────────────────────────────────────────────────────────
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/LOGO_APP_COLOMBIAGO.png"
+  adaptive_icon_background: "#FFBB02"
+  adaptive_icon_foreground: "assets/images/LOGO_APP_COLOMBIAGO.png"
+  min_sdk_android: 21
